@@ -30,7 +30,6 @@ public class Basic_methods
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@name='password']")).sendKeys(string2);
 		driver.findElement(By.xpath("//button")).click();
-	
 	}
 
 	@Then("login in successfully")
