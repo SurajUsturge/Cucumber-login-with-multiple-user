@@ -35,7 +35,7 @@ public class Basic_methods
 	@Then("login in successfully")
 	public void login_in_successfully() 
 	{
-		System.out.println("logged in");
+		System.out.println("logged in with home page visiblity");
 		
 
 	}
